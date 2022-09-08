@@ -21,4 +21,5 @@ Feature: Medico
     And O medico de nome 'Jonathan Weverton', cpf '706.351.254-47', email 'jonathan@gmail.com', especialidade 'Pediatra' e crm '12333'
     And Clico em editar medico
     When eu atualizo o email para 'Weverton2@gmail.com'
+    And clico em atualizar medico
     Then vejo a mensagem que medico foi atualizado com sucesso
